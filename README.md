@@ -1,2 +1,2 @@
 # pr-creator
-Creates front and back-end project with one command
+A simple cli to create a project environment within one command

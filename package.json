@@ -1,0 +1,29 @@
+{
+  "name": "@jimmyverburgt/pr-creator",
+  "version": "0.0.1",
+  "description": "Creates front and back-end project with one command",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerburgtJimmy/pr-creator.git"
+  },
+  "keywords": [
+    "go",
+    "cli",
+    "create",
+    "project"
+  ],
+  "author": "Jimmy Verburgt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VerburgtJimmy/pr-creator/issues"
+  },
+  "homepage": "https://github.com/VerburgtJimmy/pr-creator#readme",
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  }
+}
